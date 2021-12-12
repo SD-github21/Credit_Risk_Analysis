@@ -61,3 +61,7 @@ The purpose of the Credit Risk analysis was to apply machine learning towards pr
   - Similar to the above resampling and ensemble classifier models, the results indicate a precision score of 0.09, which is extremely low and indicates that the model did not perform well in accurately identifying those loans that were high-risk because it indicates a high false positive rate. This model exhibited a sensitivity/recall score of 0.92, which indicates that the model seemed to fare extremely well in its ability to predict which credit loans were high-risk, as it’s substantially higher than 0.5.
   ![image](https://user-images.githubusercontent.com/85533099/145699896-93c0e170-6049-449a-95ac-93fb7f16933a.png)
 
+--------------------------------------------------------------------------------------------------------------------------------------
+
+## Summary
+
