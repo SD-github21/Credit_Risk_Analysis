@@ -10,8 +10,8 @@ The purpose of the Credit Risk analysis was to apply machine learning towards pr
 
 (1) Random Oversampler Model
   - The random oversampling model yielded a balanced accuracy score of 0.661, which means it is 66.1% accurate in predicting risk (whether low-risk or high-risk) for credit loans. 
-  ![image](https://user-images.githubusercontent.com/85533099/145699704-ea577cc1-4daa-4d06-80f3-2f14ee20c974.png)
-
+  ![image](https://user-images.githubusercontent.com/85533099/145699918-ef68a3e1-3458-4bde-9e1a-6e1a7d71de7d.png)
+  
   - The results indicate a precision score of 0.01, which is extremely low and indicates that the model did not perform well in accurately identifying those loans that were high-risk because it indicates a high false positive rate. In other words, the model seems rather overzealous in labeling many of the loans as being high-risk. The model exhibited a sensitivity/recall score of 0.72, which indicates that the model seemed to do fairly well in predicting which credit loans were high-risk as it’s higher than 0.5. 
   ![image](https://user-images.githubusercontent.com/85533099/145699716-5a7e6a03-6c2d-46e4-9fe9-3e805b6f5add.png)
 
