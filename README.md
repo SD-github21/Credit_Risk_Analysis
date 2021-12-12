@@ -26,8 +26,27 @@ The purpose of the Credit Risk analysis was to apply machine learning towards pr
   - The Cluster Centroids Undersampling model yielded a balanced accuracy score of 0.544, which means it is 54.4% accurate in predicting risk (whether low-risk or high-risk) for credit loans. 
   ![image](https://user-images.githubusercontent.com/85533099/145699767-a627d25f-89d5-41f2-b88a-863da57c937a.png)
   
-  - Similar to the above models, the results indicate a precision score of 0.01, which is extremely low and indicates that the model did not perform well in accurately identifying those loans that were high-risk because it indicates a high false positive rate. This model exhibited a sensitivity/recall score of 0.69, which indicates that the model seemed to do fairly well in its ability to predict which credit loans were high-risk, as it’s higher than 0.5.
+  - Similar to the above oversampling models, the results indicate a precision score of 0.01, which is extremely low and indicates that the model did not perform well in accurately identifying those loans that were high-risk because it indicates a high false positive rate. This model exhibited a sensitivity/recall score of 0.69, which indicates that the model seemed to do fairly well in its ability to predict which credit loans were high-risk, as it’s higher than 0.5.
   ![image](https://user-images.githubusercontent.com/85533099/145699777-801d83f7-7887-43c3-bb77-c56a692aa0fb.png)
 
+(4) SMOTEENN Model - Combination of Oversampling and Undersampling
+  - The SMOTEENN model yielded a balanced accuracy score of 0.645, which means it is 64.5% accurate in predicting risk (whether low-risk or high-risk) for credit loans. 
+  ![image](https://user-images.githubusercontent.com/85533099/145699813-517fa3a1-6fba-4028-b79f-ace44f9672c0.png)
 
-  
+  - Similar to the above oversampling and undersampling models, the results indicate a precision score of 0.01, which is extremely low and indicates that the model did not perform well in accurately identifying those loans that were high-risk because it indicates a high false positive rate. This model exhibited a sensitivity/recall score of 0.72, which indicates that the model seemed to do fairly well in its ability to predict which credit loans were high-risk, as it’s higher than 0.5.
+  ![image](https://user-images.githubusercontent.com/85533099/145699837-b5756c52-aa6e-4b0a-8ba7-2cd7099bc03c.png)
+
+(5) Balanced Random Forest Classifier
+  - The Balanced Random Forest Classifier model yielded a balanced accuracy score of 0.789, which means it is 78.9% accurate in predicting risk (whether low-risk or high-risk) for credit loans. 
+  ![image](https://user-images.githubusercontent.com/85533099/145699846-4187497e-82e2-4f88-b811-4ceeeb20fbc5.png)
+
+  - Similar to the above resampling models, the results indicate a precision score of 0.03, which is extremely low and indicates that the model did not perform well in accurately identifying those loans that were high-risk because it indicates a high false positive rate. This model exhibited a sensitivity/recall score of 0.70, which indicates that the model was fair in its ability to predict which credit loans were high-risk, as it’s higher than 0.5 but not substantially.
+  ![image](https://user-images.githubusercontent.com/85533099/145699861-dbe0a75f-634f-430e-88c8-60ef09c815ac.png)
+
+(6) Easy Ensemble AdaBoost Classifier
+  - The Easy Ensemble AdaBoost Classifier model yielded a balanced accuracy score of 0.932, which means it is 93.2% accurate in predicting risk (whether low-risk or high-risk) for credit loans. 
+  ![image](https://user-images.githubusercontent.com/85533099/145699879-43a0086d-22bb-4b5e-977f-3c3dc17a9dc4.png)
+
+  - Similar to the above resampling and ensemble classifier models, the results indicate a precision score of 0.09, which is extremely low and indicates that the model did not perform well in accurately identifying those loans that were high-risk because it indicates a high false positive rate. This model exhibited a sensitivity/recall score of 0.92, which indicates that the model seemed to fare extremely well in its ability to predict which credit loans were high-risk, as it’s substantially higher than 0.5.
+  ![image](https://user-images.githubusercontent.com/85533099/145699896-93c0e170-6049-449a-95ac-93fb7f16933a.png)
+
