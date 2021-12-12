@@ -27,7 +27,7 @@ The purpose of the Credit Risk analysis was to apply machine learning towards pr
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-(3) Cluster Centroids Undersampling Model
+**(3) Cluster Centroids Undersampling Model**
   - The Cluster Centroids Undersampling model yielded a balanced accuracy score of 0.544, which means it is 54.4% accurate in predicting risk (whether low-risk or high-risk) for credit loans. 
   ![image](https://user-images.githubusercontent.com/85533099/145699970-2871052e-d576-46f7-97e0-7e00b1cd819c.png)
    
@@ -36,7 +36,7 @@ The purpose of the Credit Risk analysis was to apply machine learning towards pr
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-(4) SMOTEENN Model - Combination of Oversampling and Undersampling
+**(4) SMOTEENN Model - Combination of Oversampling and Undersampling**
   - The SMOTEENN model yielded a balanced accuracy score of 0.645, which means it is 64.5% accurate in predicting risk (whether low-risk or high-risk) for credit loans. 
   ![image](https://user-images.githubusercontent.com/85533099/145699983-4d22cb8c-2596-49ab-82e0-858a684c5dde.png)
 
@@ -45,7 +45,7 @@ The purpose of the Credit Risk analysis was to apply machine learning towards pr
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-(5) Balanced Random Forest Classifier
+**(5) Balanced Random Forest Classifier**
   - The Balanced Random Forest Classifier model yielded a balanced accuracy score of 0.789, which means it is 78.9% accurate in predicting risk (whether low-risk or high-risk) for credit loans. 
   ![image](https://user-images.githubusercontent.com/85533099/145699994-c3d2d637-639b-490f-a89a-14e65af509e8.png)
 
@@ -54,7 +54,7 @@ The purpose of the Credit Risk analysis was to apply machine learning towards pr
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-(6) Easy Ensemble AdaBoost Classifier
+**(6) Easy Ensemble AdaBoost Classifier**
   - The Easy Ensemble AdaBoost Classifier model yielded a balanced accuracy score of 0.932, which means it is 93.2% accurate in predicting risk (whether low-risk or high-risk) for credit loans. 
   ![image](https://user-images.githubusercontent.com/85533099/145700003-e6f79e63-3531-4a2f-84b9-7658873c2c66.png)
 
