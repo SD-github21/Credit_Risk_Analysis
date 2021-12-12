@@ -1,6 +1,6 @@
 # Credit Risk Analysis
 
-The purpose of the Credit Risk analysis was to apply machine learning towards predicting credit card risk. Machine learning techniques were employed to both train and evaluate the performance of six different models in order to discover the model that could best predict credit card risk. The balanced accuracy score, precision, and sensitity/recall were examined and utilized to determine how each model fared against the others. 
+The purpose of the Credit Risk analysis was to apply machine learning towards predicting credit card risk. Machine learning techniques were employed to both train and evaluate the performance of six different models in order to discover the model that yielded the best metrics in identifying, classifying, and predicting high-risk applicants. The balanced accuracy score, precision, and sensitity/recall were examined and utilized to determine how each model fared against the others. 
 
 ## Resources
 - Data Sources: LoanStats_2019Q1.csv 
