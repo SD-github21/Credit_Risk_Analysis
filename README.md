@@ -8,7 +8,7 @@ The purpose of the Credit Risk analysis was to apply machine learning towards pr
 
 ## Results
 
-**(1) Random Oversampler Model
+**(1) Random Oversampler Model**
   - The random oversampling model yielded a balanced accuracy score of 0.661, which means it is 66.1% accurate in predicting risk (whether low-risk or high-risk) for credit loans. 
   ![image](https://user-images.githubusercontent.com/85533099/145699918-ef68a3e1-3458-4bde-9e1a-6e1a7d71de7d.png)
   
@@ -17,7 +17,7 @@ The purpose of the Credit Risk analysis was to apply machine learning towards pr
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-(2) SMOTE Oversampling Model
+**(2) SMOTE Oversampling Model**
   - The SMOTE Oversampling model yielded a balanced accuracy score of 0.658, which means it is 65.8% accurate in predicting risk (whether low-risk or high-risk) for credit loans. 
   ![image](https://user-images.githubusercontent.com/85533099/145699952-4d941100-9d29-4a92-b0b6-ca000842acb1.png)
 
